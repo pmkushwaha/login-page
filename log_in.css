@@ -1,0 +1,170 @@
+
+
+ body,
+ html {
+
+     height: 100%;
+
+ }
+
+ body {
+ 
+     margin: 0;
+     padding: 0;
+     font-family: "lato", sans-serif;
+     background-image: url('tesla.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+ }
+
+ #parent {
+
+     display: flex;
+     height: 100vh;
+     width: 100%;
+     max-width: 400px;
+     flex-direction: row ;
+     align-items: center;
+     justify-content: center;
+
+     
+ 
+
+
+ }
+ 
+ 
+ .titale {
+     color: black;
+     text-align: center;
+
+ }
+
+ #container {
+/*    
+   
+    padding: 20px; */
+  
+    
+    background: rgba(91, 166, 252, 0.6);
+     width: 100%;
+     height: 100%;
+      margin-left: 50px;  
+      /* padding: 50px;  */
+        max-width: 400px;
+     display:flex;
+     flex-flow: column;
+     align-items: center;  
+
+ }
+
+ #avtar {
+     border-radius: 50%;
+     width: 60px;
+     display: inline-block;
+
+ }
+
+
+ input[type=text],
+ input[type=password] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     border-radius: 5px;
+
+ }
+
+ button {
+    background-color: rgb(8, 7, 7);
+     color:white;
+     padding: 14px 20px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     
+     border-radius: 5px;
+ }
+
+ button:hover {
+     opacity: 0.6;
+
+ }
+
+ .cancel-button {
+     width: auto;
+     padding: 10px 10px;
+     background-color: #f44336;
+ }
+
+ span.f-psw {
+     float: right;
+     padding-top: 16px;
+ }
+
+ @media screen and (max-width:300px) {
+     span.f-psw {
+         display: block;
+         float: none;
+
+     }
+
+     .cancel-button {
+         width: 100%;
+
+     }
+ }
+
+
+
+
+ @media screen and (min-width:768px) and (max-width:1023px) {
+     #child1 {
+         width: 50%;
+     }
+
+     #child2 {
+         width: 50%;
+     }
+
+     /* #form{
+        width: 100%;
+    } */
+ }
+
+ @media screen and(min-width:1024px) {
+     #child1 {
+         width: 50%;
+     }
+
+     #child2 {
+         width: 50%;
+     }
+
+ }
+
+
+ @media screen and(max-width:768px) and (min-width:375px) {
+     #child1 {
+         width: 50%;
+     }
+
+     #child2 {
+         width: 50%;
+     }
+
+     #form {
+         width: 50%;
+         height: 50%;
+     }
+
+     #welcome {
+         width: 50%;
+         height: 50%;
+     }
+ }

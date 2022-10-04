@@ -1,0 +1,88 @@
+body,
+html {
+
+    height: 100%;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lato", sans-serif;
+
+    background-image: url('tesla.jpg');
+    background-size: 1366px 784px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+
+}
+
+#container {
+    background: rgba(47, 49, 51, 0.8);
+    margin-top: 5%;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+
+}
+
+#wc {
+    
+    text-align: center;
+    /* font-size: x-large; */
+    color:  whitesmoke;
+}
+
+img {
+    height: auto;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+
+}
+
+button {
+    background-color: rgb(8, 7, 7);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    opacity: .8;
+}
+span{
+    color: white;
+}
+#signature{
+    font-size:small;
+}
