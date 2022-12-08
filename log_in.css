@@ -29,10 +29,6 @@
      align-items: center;
      justify-content: center;
 
-     
- 
-
-
  }
  
  
@@ -105,6 +101,14 @@
  span.f-psw {
      float: right;
      padding-top: 16px;
+ }
+
+ .back{
+    color: white;
+    background: #1161a3;
+    position: relative;
+    top: 10px;
+    left: 94px;
  }
 
  @media screen and (max-width:300px) {
